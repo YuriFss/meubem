@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     let slideIndex = 0;
     let fotosEMensagens = [
-        {foto: "imagens/foto1.jpeg", mensagem: "Meu amor, você é a luz da minha vida! 💖"},
-        {foto: "imagens/foto2.jpeg", mensagem: "Cada momento com você é um presente. 🎁"},
-        {foto: "imagens/foto3.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"},
-        {foto: "imagens/foto4.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"},
-        {foto: "imagens/foto5.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"},
-        {foto: "imagens/foto6.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"},
-        {foto: "imagens/foto7.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"},
-        {foto: "imagens/foto8.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"},
-        {foto: "imagens/foto9.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"},
-        {foto: "imagens/foto10.jpeg", mensagem: "Nicole, eu te amo mais que tudo! ❤️"}
+        {foto: "imagens/foto1.jpeg", mensagem: "Teste 💖"},
+        {foto: "imagens/foto2.jpeg", mensagem: "Teste 🎁"},
+        {foto: "imagens/foto3.jpeg", mensagem: ""},
+        {foto: "imagens/foto4.jpeg", mensagem: ""},
+        {foto: "imagens/foto5.jpeg", mensagem: ""},
+        {foto: "imagens/foto6.jpeg", mensagem: ""},
+        {foto: "imagens/foto7.jpeg", mensagem: ""},
+        {foto: "imagens/foto8.jpeg", mensagem: ""},
+        {foto: "imagens/foto9.jpeg", mensagem: ""},
+        {foto: "imagens/foto10.jpeg", mensagem: ""}
     ];
 
     document.getElementById('startButton').addEventListener('click', function() {
