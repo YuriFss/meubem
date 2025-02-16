@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Nicole!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Feliz Aniversário, Amor! 🎉</h1>
+        </header>
+
+        <div class="flower-decoration">
+            <img src="svg/f1.svg" alt="">
+        </div>
+        
+        <div class="slideshow-container">
+            <div class="flower-left">
+                <img src="svg/f2.svg" alt="">
+            </div>
+            <div class="flower-right">
+                <img src="svg/f3.svg" alt="">
+            </div>
+        </div>
+
+        <button id="startButton">💖 Iniciar 💖</button>
+
+        <audio id="musica" loop>
+            <source src="ed.flac" type="audio/flac">
+            Seu navegador não suporta áudio.
+        </audio>
+
+        <div id="music-controls">
+            <button onclick="toggleMusic()">🎵 Pausar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
