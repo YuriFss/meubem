@@ -22,35 +22,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function showSlides() {
         let container = document.querySelector(".slideshow-container");
-        container.innerHTML = "";
 
         if (slideIndex >= fotosEMensagens.length) {
-            slideIndex = fotosEMensagens.length -1;
+            slideIndex = fotosEMensagens.length - 1;
+        } else {
+            container.innerHTML = "";
         }
+        
+        if(slideIndex < fotosEMensagens.length){
+            let slide = document.createElement("div");
+            slide.className = "mySlides";
 
-        let slide = document.createElement("div");
-        slide.className = "mySlides";
+            let moldura = document.createElement("div");
+            moldura.className = "moldura";
 
-        let moldura = document.createElement("div");
-        moldura.className = "moldura";
+            let img = document.createElement("img");
+            img.src = fotosEMensagens[slideIndex].foto;
 
-        let img = document.createElement("img");
-        img.src = fotosEMensagens[slideIndex].foto;
+            let textoMoldura = document.createElement("p");
+            textoMoldura.className = "texto-moldura";
+            textoMoldura.textContent = fotosEMensagens[slideIndex].mensagem;
 
-        let textoMoldura = document.createElement("p");
-        textoMoldura.className = "texto-moldura";
-        textoMoldura.textContent = fotosEMensagens[slideIndex].mensagem;
-
-        moldura.appendChild(img);
-        moldura.appendChild(textoMoldura);
-        slide.appendChild(moldura);
-        container.appendChild(slide);
+            moldura.appendChild(img);
+            moldura.appendChild(textoMoldura);
+            slide.appendChild(moldura);
+            container.appendChild(slide);
+        }
         
         if (slideIndex < fotosEMensagens.length - 1) {
-              slideIndex++;
-             setTimeout(showSlides, 10000);
+            slideIndex++;
+            setTimeout(showSlides, 10000);
         }
-
     }
 });
 
