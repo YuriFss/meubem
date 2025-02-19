@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     let slideIndex = 0;
     let fotosEMensagens = [
-        {foto: "imagens/foto1.jpeg", mensagem: "Teste 💖"},
-        {foto: "imagens/foto2.jpeg", mensagem: "Teste 🎁"},
-        {foto: "imagens/foto3.jpeg", mensagem: ""},
-        {foto: "imagens/foto4.jpeg", mensagem: ""},
-        {foto: "imagens/foto5.jpeg", mensagem: ""},
-        {foto: "imagens/foto6.jpeg", mensagem: ""},
-        {foto: "imagens/foto7.jpeg", mensagem: ""},
-        {foto: "imagens/foto8.jpeg", mensagem: ""},
-        {foto: "imagens/foto9.jpeg", mensagem: ""},
-        {foto: "imagens/foto10.jpeg", mensagem: ""}
+        {foto: "imagens/foto1.jpeg", mensagem: "É difícil começar a descrever..."},
+        {foto: "imagens/foto2.jpeg", mensagem: "Lembro de quando nos conhecemos pela primeira vez..."},
+        {foto: "imagens/foto3.jpeg", mensagem: "E daquele primeiro beijo..."},
+        {foto: "imagens/foto4.jpeg", mensagem: "Lembro da felicidade após chegar em casa do primeiro encontro..."},
+        {foto: "imagens/foto5.jpeg", mensagem: "Amo seu sorriso..."},
+        {foto: "imagens/foto6.jpeg", mensagem: "Amo sua risada quando te faço cócegas..."},
+        {foto: "imagens/foto7.jpeg", mensagem: "Amo quando sou fotografado pela retina desses olhos lindos..."},
+        {foto: "imagens/foto8.jpeg", mensagem: "Amo estar ao seu lado..."},
+        {foto: "imagens/foto9.jpeg", mensagem: "E nesse dia especial amor..."},
+        {foto: "imagens/foto10.jpeg", mensagem: "Te desejo feliz aniversário!, TE AMO!"},
     ];
 
     document.getElementById('startButton').addEventListener('click', function() {
