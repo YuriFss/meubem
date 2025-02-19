@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {foto: "imagens/foto4.jpeg", mensagem: "Lembro da felicidade após chegar em casa do primeiro encontro..."},
         {foto: "imagens/foto5.jpeg", mensagem: "Amo seu sorriso..."},
         {foto: "imagens/foto6.jpeg", mensagem: "Amo sua risada quando te faço cócegas..."},
-        {foto: "imagens/foto7.jpeg", mensagem: "Amo quando sou fotografado pela retina desses olhos lindos..."},
+        {foto: "imagens/foto7.jpeg", mensagem: "Amo ser fotografado pela retina desses olhos lindos..."},
         {foto: "imagens/foto8.jpeg", mensagem: "Amo estar ao seu lado..."},
         {foto: "imagens/foto9.jpeg", mensagem: "E nesse dia especial amor..."},
         {foto: "imagens/foto10.jpeg", mensagem: "Te desejo feliz aniversário!, TE AMO!"},
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let container = document.querySelector(".slideshow-container");
         container.innerHTML = "";
 
-        if (slideIndex >= fotosEMensagens.length) {slideIndex = 0}
+        if (slideIndex >= fotosEMensagens.length) {return;}
 
         let slide = document.createElement("div");
         slide.className = "mySlides";
