@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             container.innerHTML = "";
         }
         
-        if(slideIndex < fotosEMensagens.length){
+        if(slideIndex <= fotosEMensagens.length){
             let slide = document.createElement("div");
             slide.className = "mySlides";
 
