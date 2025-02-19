@@ -24,7 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
         let container = document.querySelector(".slideshow-container");
         container.innerHTML = "";
 
-        if (slideIndex >= fotosEMensagens.length) {return;}
+        if (slideIndex >= fotosEMensagens.length) {
+            slideIndex = fotosEMensagens.length -1;
+        }
 
         let slide = document.createElement("div");
         slide.className = "mySlides";
@@ -43,9 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
         moldura.appendChild(textoMoldura);
         slide.appendChild(moldura);
         container.appendChild(slide);
+        
+        if (slideIndex < fotosEMensagens.length - 1) {
+              slideIndex++;
+             setTimeout(showSlides, 10000);
+        }
 
-        slideIndex++;
-        setTimeout(showSlides, 10000);
     }
 });
 
